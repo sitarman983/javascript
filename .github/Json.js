@@ -77,3 +77,22 @@ function printPerson({name, age, city}){
 }
 
 printPerson(person) //Name: uday, Age: 30, City: delhi print houga
+//json api introduction, JSON stands for JavaScript Object Notation, JSON is a lightweight data interchange format that is easy for humans to read and write, and easy for machines to parse and generate. JSON is often used to exchange data between a server and a web application, as an alternative to XML.
+
+//JSON me data ko key-value pairs ke form me store kiya jata hai, jisme keys hamesha strings hote hain, aur values kisi bhi data type ke ho sakte hain, jaise ki string, number, boolean, array, object, null, etc.
+
+//JSON me data ko string ke form me store kiya jata hai, isliye JSON me data ko string me convert karna padta hai, aur JSON se data ko string se convert karna padta hai. JSON me data ko string me convert karne ke liye JSON.stringify() method ka use kiya jata hai, aur JSON se data ko string se convert karne ke liye JSON.parse() method ka use kiya jata hai.
+
+let person4 = {
+    name: "uday",
+    age: 30,
+    city: "delhi"
+}
+
+//object ko JSON string me convert karna
+let jsonString = JSON.stringify(person4)
+console.log(jsonString) //{"name":"uday","age":30,"city":"delhi"} print houga, JSON string me convert ho gya
+
+//JSON string ko object me convert karna
+let jsonObject = JSON.parse(jsonString)
+console.log(jsonObject) //{ name: 'uday', age: 30, city: 'delhi' } print houga, JSON string se object me convert ho gya
