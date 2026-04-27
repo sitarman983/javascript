@@ -29,16 +29,19 @@ let y = weight2
 let theory = `${x} will be 200 kg in 5 years and ${y} will be 150 kg in 5 years` //let ta likya
 console.log(theory) //uday will be 200 kg in 5 years and tarman will be 150 kg in 5 years print houga
 
-*/
+
 x = 100
 y= 200
 function add(x, y) {
-    return `the sum of their weight is ${x+Y}`
+    return `the sum of their weight is ${x+y}`
 }//the sum of their weight is 300 print houga
 console.log(add(x, y)) //the sum of their weight is 300 print houga
 
 
-/*
+
+
+
+
 
 //string interpolation using template literals with function calls
 function add(x, y) {
@@ -46,6 +49,27 @@ function add(x, y) {
 }//ehde nal function call v ho javega interpolation ch
 let interpolation4 = `The sum of ${a} and ${b} is ${add(a, b)}`
 console.log(interpolation4) //The sum of 10 and 20 is 30 print houga
+
+
+
+
+
+
+
+// je ure fucntion define na kita ta ohne add(j,b) print ni krna error de dena, par jdo function define krke add(j,b) call krange ta ohne 40 print kr dena
+function add(x, y) {
+    return x + y
+}
+
+let j = 10
+let b = 30
+//console.log(`3 guna ${j} bnju ${b}`)
+
+console.log(`jorhke bnju ${add(j,b)}`)
+
+
+
+
 
 
 
@@ -80,13 +104,45 @@ console.log(interpolation4) //The sum of 10 and 20 is 30 print houga
 
 
 //string interpolation using template literals with nested expressions
+
+//defining function
+function add(x,y){
+    return x+y
+}
+let uday
 let interpolation5 = `The sum of ${a} and ${b} is ${add(a, b) * 2}`
 console.log(interpolation5) //The sum of 10 and 20 is 60 print houga
+
+
+
+
+
+
+
+
+
+
+
 
 //string interpolation using template literals with conditional expressions
 let isLoggedIn = true
 let interpolation6 = `User is ${isLoggedIn ? "logged in" : "logged out"}`
 console.log(interpolation6) //User is logged in print houga
+
+
+
+
+                        let udayIsPandit = true
+                        let tarmanisPandit = false
+                        let reality = `uday is ${udayIsPandit ?"a pandit":"not a pandit"} and tarman is ${tarmanisPandit ? "hega panditn":"nhi a pandit"}`
+                        console.log(reality) //uday is a pandit and tarman is nhi a pandit print houga
+*/
+
+
+
+
+
+
 
 //string interpolation using template literals with loops
 let users = ["uday", "kumar", "john"]
@@ -101,6 +157,7 @@ let user = {
 let interpolation8 = `User name is ${user.name} and age is ${user.age}`
 console.log(interpolation8) //User name is uday and age is 30 print houga
 
+/*
 //string interpolation using template literals with arrays
 let numbers = [1, 2, 3, 4, 5]
 let interpolation9 = `Numbers: ${numbers.join(", ")}`
