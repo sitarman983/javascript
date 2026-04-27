@@ -1,0 +1,136 @@
+/*let str1 = "uday"
+let str2 = "kumar"
+
+let interpolation = str1 + str2
+console.log(interpolation) //                                           udaykumar print houga
+//string interpolation using template literals
+let interpolation2 = `${str1} ${str2}`//ehde nal space v add ho javega  uday kumar print houga
+console.log(interpolation2) //uday kumar print houga 
+
+
+
+
+
+
+
+
+
+//string interpolation using template literals with expressions
+let a = 10
+let b = 20
+let interpolation3 = `The sum of ${a} and ${b} is ${a + b}`
+console.log(interpolation3) //The sum of 10 and 20 is 30 print houga
+
+
+const Weight1 = "uday"
+const weight2 = "tarman"
+let x = Weight1
+let y = weight2
+let theory = `${x} will be 200 kg in 5 years and ${y} will be 150 kg in 5 years` //let ta likya
+console.log(theory) //uday will be 200 kg in 5 years and tarman will be 150 kg in 5 years print houga
+
+*/
+x = 100
+y= 200
+function add(x, y) {
+    return `the sum of their weight is ${x+Y}`
+}//the sum of their weight is 300 print houga
+console.log(add(x, y)) //the sum of their weight is 300 print houga
+
+
+/*
+
+//string interpolation using template literals with function calls
+function add(x, y) {
+    return x + y
+}//ehde nal function call v ho javega interpolation ch
+let interpolation4 = `The sum of ${a} and ${b} is ${add(a, b)}`
+console.log(interpolation4) //The sum of 10 and 20 is 30 print houga
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//string interpolation using template literals with nested expressions
+let interpolation5 = `The sum of ${a} and ${b} is ${add(a, b) * 2}`
+console.log(interpolation5) //The sum of 10 and 20 is 60 print houga
+
+//string interpolation using template literals with conditional expressions
+let isLoggedIn = true
+let interpolation6 = `User is ${isLoggedIn ? "logged in" : "logged out"}`
+console.log(interpolation6) //User is logged in print houga
+
+//string interpolation using template literals with loops
+let users = ["uday", "kumar", "john"]
+let interpolation7 = `Users: ${users.map(user => user.toUpperCase()).join(", ")}`
+console.log(interpolation7) //Users: UDAY, KUMAR, JOHN print houga
+
+//string interpolation using template literals with objects
+let user = {
+    name: "uday",
+    age: 30
+}
+let interpolation8 = `User name is ${user.name} and age is ${user.age}`
+console.log(interpolation8) //User name is uday and age is 30 print houga
+
+//string interpolation using template literals with arrays
+let numbers = [1, 2, 3, 4, 5]
+let interpolation9 = `Numbers: ${numbers.join(", ")}`
+console.log(interpolation9) //Numbers: 1, 2, 3, 4, 5 print houga
+
+//string interpolation using template literals with multi-line strings
+let interpolation10 = `This is a multi-line string
+using template literals`
+console.log(interpolation10) //This is a multi-line string
+//using template literals print houga
+
+//string interpolation using template literals with tagged templates
+function tag(strings, ...values) {
+    console.log(strings) //["Hello ", " how are you?"] print houga
+    console.log(values) //[ "uday" ] print houga
+    return "Tagged template"
+}
+let interpolation11 = tag`Hello ${str1} how are you?`
+console.log(interpolation11) //Tagged template print houga
+
+//string interpolation using template literals with raw strings
+let interpolation12 = String.raw`This is a raw string\nNew line`
+console.log(interpolation12) //This is a raw string\nNew line print houga
+//string methods with string interpolation
+let interpolation13 = `Hello ${str1.toUpperCase()}`
+console.log(interpolation13) //Hello UDAY print houga
+
+let interpolation14 = `The length of str1 is ${str1.length}`
+console.log(interpolation14) //The length of str1 is 4 print houga
+
+let interpolation15 = `The first character of str1 is ${str1.charAt(0)}`
+console.log(interpolation15) //The first character of str1 is u print houga
+*/
