@@ -68,6 +68,5 @@ console.log(nullToBoolean) //false print hoga
 
 //undefined nu boolean ch convert krna, undefined te false print hoga
 let undefinedToBoolean = Boolean(undefined)
-console.log(undefinedToBoolean) //false print hoga  
+console.log(undefinedToBoolean) //false print hoga  0....................................................................0....
 
-//a
