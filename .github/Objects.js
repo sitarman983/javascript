@@ -2,6 +2,17 @@
 // Objects me hum properties aur methods define kar sakte hain. Properties object ke attributes hote hain,
 //  jabki methods functions hote hain jo object ke behavior ko define karte hain.
 //object define karna
+//difference bw object and functions: object ek data structure hai jo key-value pairs ko store karta hai,
+//  jabki function ek block of code hai jo specific task perform karta hai.
+//  Object me hum properties aur methods define kar sakte hain, 
+// jabki function me hum code likhte hain jo kisi specific task ko perform karta hai. 
+// Object me hum data ko organize kar sakte hain,
+//  jabki function me hum logic ko organize kar sakte hain.
+
+
+
+
+
 let person = {
     name: "uday",
     age: 30,

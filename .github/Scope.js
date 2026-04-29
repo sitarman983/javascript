@@ -1,3 +1,21 @@
+//start hi hunda let var or const
+//jrurat ki a ehna di?
+// { } hi scope a (curly braces)
+//jdo kise if else nal aunda ta if else da scope khene a ehnu
+
+if (true) {
+let a = 10
+const b = 20
+var c = 30
+
+}
+console.log(a) //10 print nhi houga
+console.log(b) //20 print nhi vhouga
+console.log(c) //30 print houga
+    //kiunki return ni kita but 30 kiwe print hogya?
+
+    
+
 //Global and local scope in javascript
 
 //global scope
