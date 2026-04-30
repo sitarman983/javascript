@@ -5,6 +5,15 @@
 // when a function returns, it is removed from the top of the call stack.
 // if a function calls another function, the called function is added to the top of the call stack, and so on.
 
+
+//cycle 1 memory phase
+// 1. global execution context is created and added to the call stack.
+//cycle 2 execution phase
+// 1. global code is executed line by line.
+// 2. when a function is called, a new execution context is created for that function and added to the call stack.
+// 3. the function's code is executed, and when it returns, its execution context is removed from the call stack.
+// 4. this process continues until all code has been executed and the call stack is empty.
+
 // example of call stack:
 function first() {
     console.log("First function");

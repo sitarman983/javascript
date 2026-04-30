@@ -1,4 +1,5 @@
 //learning iife
+// semicolon between two iffe chahida.
 //we use it to stop poulting the global namespace and to create a new scope for our variables and functions.
 (function() {
     console.log("This is an IIFE");
