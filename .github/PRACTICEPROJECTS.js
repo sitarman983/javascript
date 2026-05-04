@@ -1,3 +1,23 @@
+//  random shortcut = shift + alt + down arrow to duplicate the line
+
+
+//PRinting all the mathematical tables till 10
+
+for (let i = 0; i <= 10; i++) {//outer loop
+
+    const element = i;
+    console.log(`${element}` )
+
+    for (let j = 0; j <= 10; j++) {//inner loop
+    const element = i + "*" + j + `=` + i * j; // multiplying
+    console.log(`${element}` )
+    
+    }
+
+    
+}
+
+
 //Making a calulator using JavaScript
 
 function add(a, b) {

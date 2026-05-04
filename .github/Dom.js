@@ -15,3 +15,4 @@ heading.textContent = "Hello, World!";
 // jive ki heading di text content nu change karna.
 
 //example of creating a new element and adding it to the DOM:
+
